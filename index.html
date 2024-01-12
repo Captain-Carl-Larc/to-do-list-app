@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1>To Do App</h1>
+            </div>
+            <div class="taskbar">
+                <input type="text" id="input-Box" placeholder="Type task here">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div class="alerts">
+                <!-- THIS IS WHERE ALERTS WILL BE DISPLAYED -->
+               <!--  <p class="task-added">Task added sucessfully!</p> -->
+                <!-- <p class="error">Task cannot be blank!</p> -->
+            </div>
+            <div class="pending-task">
+                <h4>Pending Tasks</h4>
+                <ul id="list-container">
+                    <!-- UNCOMPLETED TASKS WILL APPEAR HERE -->
+                    <!-- <li>Do code jlflhjrlbjcbjkrblejkbrjkbcwjkrb;c
+                        jbruibjibc
+                        uirb</li>
+                    <li>Make App</li> -->
+                </ul>
+            </div>
+            <div class="completed-task">
+                <h4>Completed Tasks</h4>
+                <ul>
+                   <!--  <li>Call Emma</li> -->
+                </ul>
+                <button>Clear</button>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
